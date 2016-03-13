@@ -1,97 +1,123 @@
 @font-face {
     font-family: MKX;
-    src: url(mkx.ttf);
+    src: url(fonts/mkx.ttf);
 }
 @font-face {
 font-family: harabara;
-src :url(Harabara.ttf);
+src :url(fonts/Harabara.ttf);
 }
+@font-face {
+font-family: o24d;
+src :url(fonts/o24d.ttf);
+}
+@font-face {
+font-family: bebas;
+src :url(fonts/bebas.otf);
+}
+
+
 header {
-  font-family: arial;
-	padding: 3%;
+	padding: 2.5%;
   background-color: black;
   border-bottom: thick solid limegreen;
   text-align: center;
 	margin: -10px -10px 2% -10px;
 }
+h1 {
+color: white;
+text-align: center;
+font-size: 275%;
+font-weight: lighter;
+font-family: bebas;
+}
+
 .logo{
   background-image: url(htl.png);
   transition: 1s;
-  padding-top: 4%;
-  padding-bottom:  4%;
-  width:35%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width:32.5%;
   margin: auto;
   background-size: 100% 100%;
 }
 .logo:hover{
   background-image: url(htl3.png);
   transition: 1s;
+  -webkit-transition: 1s;
 }
-header h1{
-	margin: 0px;
-}
+/*________________________________________________________________*/
+/*________________________________________________________________*/
 body {
     	background-color: black;
       background-image: url(bg.jpg);
       background-size: 100% 100%;
-      display: block;
-
+      background-attachment: fixed;
 }
-#mainpanel {
+.mainpanel {
 	margin: 2.5% auto;
 	width: 80%;
   padding-left: 1.5%;
   padding-right: 1.5%;
+  padding-bottom: 5%;
 	border: thick solid limegreen;
-	border-radius: 10px;
+	border-radius: 20px;
   background-color: black;
-  
-}
-#mainpanel > div {
   opacity: 0.8;
 }
-h1 {
-color: white;
-text-align: center;
-font-size: 500%;
-font-family: MKX;
+.mainpanel  {
+  opacity: 1.0;
 }
-.coluna {
-width: 20%;
-margin: 0;
-padding: 0;
-border: 0;
-float:left;
-overflow: visible;
-}
+
 .linhas{
   overflow-y: hidden;
   height: auto;
   margin: 0;
   padding: 0;
   border: 0;
+
+  /*
+  background-color: red;
+  border: solid white;
+  */
+}
+.coluna {
+width: 20%;
+height: auto;
+margin: auto;
+padding: auto;
+border: 0;
+float:left;
+overflow: visible;
+/*
+background-color: blue;
+*/
 }
 
 .gridblock {
 width: 70%;
 transition: 1s;
+-webkit-transition: 1s;
 background-color: black;
 color: white;
 margin: 15%;
 border: solid limegreen;
 border-radius: 20px;
+opacity: 1.0;
+overflow: hidden;
 }
-
 .gridblock:hover {
 width: auto;
 height: auto;
-margin: 5%;
+margin: 2.5%;
+overflow: inherit;
 border: 0;
 }
-.gridblock:hover .legenda p {
-margin: 0;
-padding: 0;
-opacity: 0;
+
+.foto {
+  padding-top: 40%;
+  padding-bottom: 40%;
+  border-radius: 5%;
+  background-size: 100% 100%;
 }
 
 .gridblock:hover .foto {
@@ -99,14 +125,16 @@ opacity: 0;
   padding-bottom: 50%;
   border: solid limegreen;
 }
-.foto {
-  padding-top: 40%;
-  padding-bottom: 40%;
-  border-radius: 5%;
-  background-size: 100% 100%;
-}
+
 .legenda{
   text-align: center;
-  font-family: harabara;
-  font-size: 150%;
+  font-family: o24d;
+}
+.legenda p{
+  margin: 10%;
+}
+.gridblock:hover .legenda p {
+margin: 0;
+padding: 0;
+opacity: 0;
 }
