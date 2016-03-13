@@ -1,39 +1,112 @@
-
+@font-face {
+    font-family: MKX;
+    src: url(mkx.ttf);
+}
+@font-face {
+font-family: harabara;
+src :url(Harabara.ttf);
+}
 header {
-  background-color: #5EDCE2;
   font-family: arial;
-	font-size: 22px;
-	color: white;
 	padding: 3%;
+  background-color: black;
+  border-bottom: thick solid limegreen;
+  text-align: center;
 	margin: -10px -10px 2% -10px;
+}
+.logo{
+  background-image: url(htl.png);
+  transition: 1s;
+  padding-top: 4%;
+  padding-bottom:  4%;
+  width:35%;
+  margin: auto;
+  background-size: 100% 100%;
+}
+.logo:hover{
+  background-image: url(htl3.png);
+  transition: 1s;
 }
 header h1{
 	margin: 0px;
 }
 body {
-    	background-color: #7D9BD3;
-}
+    	background-color: black;
+      background-image: url(bg.jpg);
+      background-size: 100% 100%;
+      display: block;
 
+}
 #mainpanel {
 	margin: 2.5% auto;
 	width: 80%;
-	border: thick solid darkblue;
-	background-color: #008DFF;
-	border-radius: 20px;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+	border: thick solid limegreen;
+	border-radius: 10px;
+  background-color: black;
+  
 }
-.tipslot {
-		width : 15%;
-		font-family: calibri;
-		font-weight: bolder;
-		float: left;
-		margin: 2.5%;
-		padding: 2%;
-		border: medium solid darkblue;
-		background-color: #00C9FF;
-		border-radius: inherit
+#mainpanel > div {
+  opacity: 0.8;
 }
-.tipslot:hover{
-	border: medium solid black;
-	color: white;
-	background-image: url(https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/6/005/018/062/2fa4810.jpg);
+h1 {
+color: white;
+text-align: center;
+font-size: 500%;
+font-family: MKX;
+}
+.coluna {
+width: 20%;
+margin: 0;
+padding: 0;
+border: 0;
+float:left;
+overflow: visible;
+}
+.linhas{
+  overflow-y: hidden;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.gridblock {
+width: 70%;
+transition: 1s;
+background-color: black;
+color: white;
+margin: 15%;
+border: solid limegreen;
+border-radius: 20px;
+}
+
+.gridblock:hover {
+width: auto;
+height: auto;
+margin: 5%;
+border: 0;
+}
+.gridblock:hover .legenda p {
+margin: 0;
+padding: 0;
+opacity: 0;
+}
+
+.gridblock:hover .foto {
+  padding-top: 50%;
+  padding-bottom: 50%;
+  border: solid limegreen;
+}
+.foto {
+  padding-top: 40%;
+  padding-bottom: 40%;
+  border-radius: 5%;
+  background-size: 100% 100%;
+}
+.legenda{
+  text-align: center;
+  font-family: harabara;
+  font-size: 150%;
 }
