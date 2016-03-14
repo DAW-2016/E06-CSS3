@@ -1,0 +1,152 @@
+.container {
+  width: 100%;
+  margin: auto;
+}
+
+.col_1, .col_2, .col_3, .col_4, .col_camp {
+  float: left;
+  padding: 1%;
+}
+
+.col_1 {
+  width: 23%;
+}
+
+.col_2 {
+  width: 48%;
+}
+
+.col_3 {
+  width: 73%;
+}
+
+.col_4 {
+  width: 98%;
+}
+
+.col_camp {
+  width: 20%;
+}
+
+.legenda {
+  width: 100%;
+  height: 100%;
+  transition: 1.5s;
+  color: transparent;
+  text-align: center;
+  background-color: transparent;
+  border-radius: 40%;
+}
+.legenda:hover {
+  color: black;
+  background-color: rgba(255,255,255,.5);
+}
+
+.space {
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0);
+  color: transparent;
+}
+
+
+
+#gol, #def_1, #def_2, #atk_1, #atk_2, #resrv_1, #resrv_2, #resrv_3, #resrv_4 {
+  width: 120px;
+  height: 120px;
+  transition: 1.5s;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 40%;
+}
+#gol:hover, #def_1:hover, #def_2:hover, #atk_1:hover, #atk_2:hover, #resrv_1:hover, #resrv_2:hover, #resrv_3:hover, #resrv_4:hover {
+  width: 156px;
+  height: 156px;
+}
+
+#gol {
+  background-image: url(sereio.jpg);
+}
+
+#def_1 {
+  background-image: url(dan.jpg);
+}
+
+#def_2 {
+  background-image: url(negodrama.jpg);
+}
+
+#atk_1 {
+  margin-left: 40px;
+  background-image: url(luan.jpg);
+}
+
+#atk_2 {
+  margin-left: -100px;
+  background-image: url(please.jpg);
+}
+
+#resrv_1 {
+  margin: auto;
+  margin-top: -30px;
+  background-image: url(alão.jpg);
+}
+
+#resrv_2 {
+  margin: auto;
+  background-image: url(augusto.jpg);
+}
+
+#resrv_3 {
+  margin: auto;
+  background-image: url(martins.jpg);
+}
+
+#resrv_4 {
+  margin: auto;
+  background-image: url(ping.jpg);
+}
+
+#top {
+  background-color: rgba(160, 41, 255, 0.3);
+  margin: auto;
+  font-family: avefedan;
+  font-size: 100px;
+  text-align: center;
+}
+
+#reservas {
+  background-color: rgba(189, 255, 183, .9);
+  height: 700px;
+}
+
+#campo {
+  width: 900px;
+  height: 700px;
+  background-image: url(campomeio.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#left, #center, #right {
+  margin-left: 10%;
+}
+
+#title_resrvs {
+  width: 100%;
+  margin-top: -10px;
+  font-size: 40px;
+  text-align: center;
+  font-family: avefedan;
+  background-color: rgba(255,255,255, 0.5);
+}
+
+
+body {
+  background-image: url(back.jpg);
+}
+
+@font-face {
+  font-family: avefedan;
+  src: url(avefedan.ttf);
+}
