@@ -71,9 +71,11 @@
 }
 
 .alinha_div {
-    display:-webkit-box;
-    -webkit-box-pack:center;
-    -webkit-box-align:center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 * {
