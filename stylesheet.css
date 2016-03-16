@@ -1,0 +1,145 @@
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.col_1 {
+    width: 33.33333333%;
+}
+
+.col_2 {
+    width: 66.66666666%;
+}
+
+.col_3 {
+    width: 99.99999999%;
+}
+
+.col_1, .col_2, .col_3 {
+    float: left;
+}
+
+.jogador {
+    width: 200px;
+    height: 200px;
+    border-radius: 5%;
+    border: 3px solid black;
+    transition: 1s;
+    /*opacity: 1;*/
+    color: rgba(0,0,0,0);
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 1%;
+    display: inline-block;
+}
+
+.jogador:hover {
+    /*border: 1px solid black;*/
+    /*text-align: center;*/
+    width: 250px;
+    height: 250px;
+    /*opacity: 0.9;*/
+    color: rgba(0,0,0,1);
+}
+
+.nomeJogador_div {
+    display: table;
+    width: 200px;
+    height: 200px;
+    transition: 1s;
+    color: rgba(0,0,0,0);
+}
+
+.nomeJogador_div:hover {
+    width: 250px;
+    height: 250px;
+    color: rgba(0,0,0,1);
+}
+
+.nomeJogador {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.link_bar {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.alinha_div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 1%;
+    font-family: Arial;
+}
+body {
+    background-image: url(bg.jpg);
+    /*background-size: 100% 100%;*/
+    background-repeat: repeat-y;
+}
+
+#ariel {
+    background-image: url(ariel.jpg);
+    background-size: 100% 100%;
+    margin-left: 1%;
+}
+
+#augusto {
+    background-image: url(augusto.jpg);
+    background-size: 100% 100%;
+}
+
+#alan {
+    background-image: url(alan.jpg);
+    background-size: 100% 100%;
+}
+
+#luiz {
+    background-image: url(luiz.jpg);
+    background-size: 100% 100%;
+}
+
+#damasceno {
+    background-image: url(damasceno.jpg);
+    background-size: 100% 100%;
+}
+
+#ilmer {
+    background-image: url(ilmer.jpg);
+    background-size: 100% 100%;
+}
+
+#ping {
+    background-image: url(ping.jpg);
+    background-size: 100% 100%;
+}
+
+#marcelo {
+    background-image: url(marcelo.jpeg);
+    background-size: 100% 100%;
+}
+#site_bar {
+    background-color: #FFC700;
+    height: 40px;
+    margin-bottom: 3%;
+}
+
+#title_page {
+    background-color: #177569;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
