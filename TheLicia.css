@@ -1,0 +1,109 @@
+body{
+  background-image: url('background.jpeg');
+  background-attachment: fixed;
+}
+img{
+  border-radius: 5%;
+}
+p, h3, h2, h1{
+  font-family: Arial;
+  font-size: 18px;
+  width: 100%;
+}
+.legenda{
+  font-size: 14px;
+}
+.title{
+  font-family: Impact, Charcoal, sans-serif;
+  text-shadow: -1px 0 black, 0 1px black, 0 1px black, 0 -1px black;
+  color: white;
+  font-size: 30px;
+}
+.subtitle{
+  font-family: Impact, Charcoal, sans-serif;
+  text-shadow: -1px 0 black, 0 1px black, 0 1px black, 0 -1px black;
+  color:white;
+  font-size: 18px;
+}
+.upbar{
+  background-color: #097531;
+  font-family: Impact, Charcoal, sans-serif;
+}
+.main{
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+  padding: 0.5%;
+  float: right;
+  margin: 0.5%;
+  margin-top: 20px;
+  width: 75%;
+}
+.sidebar{
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+  float: left;
+  margin: 0.5%;
+  margin-top:20px;
+  padding: 0.5%;
+  width: 20%;
+}
+.col1, .col2, .col3, .col4, .col5, .col6{
+  float: left;
+  padding: 0.5%;
+  margin: 0.5%;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: justify;
+}
+.col1:hover, .col2:hover, .col3:hover, .col4:hover, .col5:hover, .col6:hover{
+  background-color: rgba(160, 160, 160, 0.5);
+}
+.col1{
+  width:14.6666666667%;
+}
+.col2{
+  width:31.3333333333%;
+}
+.col3{
+  width:48%;
+}
+.col4{
+  width:64.6666666666%;
+}
+.col5{
+  width:81.3333333333%;
+}
+.col6{
+  width:98%;
+}
+.link{
+  color: black;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 18px;
+}
+.link:hover{
+  color: #009900;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 18px;
+  background-color: rgba(160, 160, 160, 0.5);
+}
+.pics{
+  border-radius: 5%;
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: rgba(255, 255, 255, 0);
+}
+.pics:hover{
+  border-radius: 5%;
+  width: 210px;
+  height: 210px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: rgba(255, 255, 255, 1);
+  font-family: Impact, Charcoal, sans-serif;
+  text-shadow: -1px 0 black, 0 1px black, 0 1px black, 0 -1px black;
+}
+.back{
+  color: white;
+}
